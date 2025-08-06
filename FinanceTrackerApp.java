@@ -236,8 +236,8 @@ public class FinanceTrackerApp extends Application {
             exitRight.getChildren().add(exitButton);
 
             transactionHistory = new ListView<>();
-            transactionHistory.setPrefHeight(200);
-            transactionHistory.setPrefWidth(660);
+            transactionHistory.setPrefHeight(300);
+            transactionHistory.setPrefWidth(800);
 
             HBox messageLeft = new HBox();
             messageLeft.setAlignment(Pos.CENTER_LEFT);
